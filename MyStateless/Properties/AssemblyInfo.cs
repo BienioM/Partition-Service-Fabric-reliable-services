@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MyStatelessService")]
+[assembly: AssemblyTitle("MyStateless")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MyStatelessService")]
+[assembly: AssemblyProduct("MyStateless")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f1120146-d4a0-4ae5-a6ac-eb12e450cf98")]
+[assembly: Guid("66a9cd20-d17e-4157-b523-77ba16e433e5")]
 
 // Version information for an assembly consists of the following four values:
 //

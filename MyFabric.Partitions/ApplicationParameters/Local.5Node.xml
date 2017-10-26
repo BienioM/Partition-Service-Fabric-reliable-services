@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/MyFabric.Partitions" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
-    <Parameter Name="MyStateful_PartitionCount" Value="1" />
+    <Parameter Name="MyStateless_InstanceCount" Value="1" />
+    <Parameter Name="MyStateful_PartitionCount" Value="26" />
     <Parameter Name="MyStateful_MinReplicaSetSize" Value="3" />
     <Parameter Name="MyStateful_TargetReplicaSetSize" Value="3" />
   </Parameters>

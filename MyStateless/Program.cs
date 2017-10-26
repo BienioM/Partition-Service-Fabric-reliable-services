@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.ServiceFabric.Services.Runtime;
 
-namespace MyStatelessService
+namespace MyStateless
 {
     internal static class Program
     {
@@ -21,10 +21,10 @@ namespace MyStatelessService
                 // When Service Fabric creates an instance of this service type,
                 // an instance of the class is created in this host process.
 
-                ServiceRuntime.RegisterServiceAsync("MyStatelessServiceType",
-                    context => new MyStatelessService(context)).GetAwaiter().GetResult();
+                ServiceRuntime.RegisterServiceAsync("MyStatelessType",
+                    context => new MyStateless(context)).GetAwaiter().GetResult();
 
-                ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(MyStatelessService).Name);
+                ServiceEventSource.Current.ServiceTypeRegistered(Process.GetCurrentProcess().Id, typeof(MyStateless).Name);
 
                 // Prevents this host process from terminating so services keep running.
                 Thread.Sleep(Timeout.Infinite);

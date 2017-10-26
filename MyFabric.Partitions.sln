@@ -5,11 +5,9 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "MyFabric.Partitions", "MyFabric.Partitions\MyFabric.Partitions.sfproj", "{339CAEB2-9089-4F01-9BB2-111A6B7E4930}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStateful", "MyStateful\MyStateful.csproj", "{1EA69D0E-F9F4-4424-BFDC-B07B8D792EB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStatefull", "MyStateful\MyStatefull.csproj", "{1EA69D0E-F9F4-4424-BFDC-B07B8D792EB0}"
 EndProject
-Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "MyStateless", "MyStateless\MyStateless.sfproj", "{BECBB04C-A999-4554-80C3-52129B7B4FCD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStatelessService", "MyStatelessService\MyStatelessService.csproj", "{F1120146-D4A0-4AE5-A6AC-EB12E450CF98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStateless", "MyStateless\MyStateless.csproj", "{66A9CD20-D17E-4157-B523-77BA16E433E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,16 +25,10 @@ Global
 		{1EA69D0E-F9F4-4424-BFDC-B07B8D792EB0}.Debug|x64.Build.0 = Debug|x64
 		{1EA69D0E-F9F4-4424-BFDC-B07B8D792EB0}.Release|x64.ActiveCfg = Release|x64
 		{1EA69D0E-F9F4-4424-BFDC-B07B8D792EB0}.Release|x64.Build.0 = Release|x64
-		{BECBB04C-A999-4554-80C3-52129B7B4FCD}.Debug|x64.ActiveCfg = Debug|x64
-		{BECBB04C-A999-4554-80C3-52129B7B4FCD}.Debug|x64.Build.0 = Debug|x64
-		{BECBB04C-A999-4554-80C3-52129B7B4FCD}.Debug|x64.Deploy.0 = Debug|x64
-		{BECBB04C-A999-4554-80C3-52129B7B4FCD}.Release|x64.ActiveCfg = Release|x64
-		{BECBB04C-A999-4554-80C3-52129B7B4FCD}.Release|x64.Build.0 = Release|x64
-		{BECBB04C-A999-4554-80C3-52129B7B4FCD}.Release|x64.Deploy.0 = Release|x64
-		{F1120146-D4A0-4AE5-A6AC-EB12E450CF98}.Debug|x64.ActiveCfg = Debug|x64
-		{F1120146-D4A0-4AE5-A6AC-EB12E450CF98}.Debug|x64.Build.0 = Debug|x64
-		{F1120146-D4A0-4AE5-A6AC-EB12E450CF98}.Release|x64.ActiveCfg = Release|x64
-		{F1120146-D4A0-4AE5-A6AC-EB12E450CF98}.Release|x64.Build.0 = Release|x64
+		{66A9CD20-D17E-4157-B523-77BA16E433E5}.Debug|x64.ActiveCfg = Debug|x64
+		{66A9CD20-D17E-4157-B523-77BA16E433E5}.Debug|x64.Build.0 = Debug|x64
+		{66A9CD20-D17E-4157-B523-77BA16E433E5}.Release|x64.ActiveCfg = Release|x64
+		{66A9CD20-D17E-4157-B523-77BA16E433E5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

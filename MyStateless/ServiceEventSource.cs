@@ -7,9 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ServiceFabric.Services.Runtime;
 
-namespace MyStatelessService
+namespace MyStateless
 {
-    [EventSource(Name = "MyCompany-MyStateless-MyStatelessService")]
+    [EventSource(Name = "MyCompany-MyFabric.Partitions-MyStateless")]
     internal sealed class ServiceEventSource : EventSource
     {
         public static readonly ServiceEventSource Current = new ServiceEventSource();

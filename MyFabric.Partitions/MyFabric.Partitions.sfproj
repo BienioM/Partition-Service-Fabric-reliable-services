@@ -32,7 +32,8 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyStateful\MyStateful.csproj" />
+    <ProjectReference Include="..\MyStateful\MyStatefull.csproj" />
+    <ProjectReference Include="..\MyStateless\MyStateless.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>
